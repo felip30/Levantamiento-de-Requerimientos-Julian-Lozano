@@ -1,0 +1,20 @@
+Requerimientos No Funcionales (RNF)
+Los requisitos no funcionales describen características técnicas y de calidad del sistema.
+?? Rendimiento y Escalabilidad
+* RNF 6.1: La plataforma debe soportar hasta 500 usuarios simultáneos sin degradación.
+* RNF 6.2: La interfaz debe cargar en menos de 3 segundos en condiciones óptimas.
+* RNF 6.3: El sistema debe ser responsivo, adaptándose a dispositivos móviles y de escritorio.
+* RNF 6.4: La base de datos debe poder escalar hasta 50,000 registros sin problemas.
+?? Compatibilidad y Accesibilidad
+* RNF 7.1: Compatible con Google Chrome, Mozilla Firefox y Microsoft Edge.
+* RNF 7.2: Cumplimiento con WCAG 2.1 para accesibilidad a personas con discapacidad.
+* RNF 7.3: Diseño adaptativo con modo oscuro opcional.
+?? Seguridad y Privacidad
+* RNF 8.1: Uso de HTTPS y cifrado SSL/TLS para la transmisión de datos.
+* RNF 8.2: Expiración automática de sesión tras 30 minutos de inactividad.
+* RNF 8.3: Autenticación en dos pasos (2FA) para administradores.
+?? Mantenimiento y Soporte
+* RNF 9.1: Documentación del código para facilitar futuras mejoras.
+* RNF 9.2: Implementación de un sistema de logs para registro de errores.
+* RNF 9.3: Establecer un mecanismo para actualizaciones periódicas sin afectar la operatividad.
+

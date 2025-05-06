@@ -1,0 +1,33 @@
+Requerimientos Funcionales (RF)
+Los requisitos funcionales describen lo que el sistema debe hacer para cumplir con su propósito.
+?? Gestión de Usuarios y Autenticación
+* RF 1.1: Permitir el registro de nuevos usuarios con datos como nombre, correo electrónico y contraseña.
+* RF 1.2: Implementación de inicio de sesión seguro con credenciales válidas.
+* RF 1.3: Recuperación de contraseña mediante correo electrónico.
+* RF 1.4: Diferenciación de roles de usuario (Administrador, Cliente, Vendedor, Gerente).
+* RF 1.5: Administración de permisos de usuario, permitiendo al administrador gestionar accesos.
+?? Gestión de Productos e Inventario
+* RF 2.1: Los administradores podrán agregar, editar y eliminar productos en la base de datos.
+* RF 2.2: Cada producto debe incluir información como nombre, descripción, precio, stock disponible e imagen.
+* RF 2.3: Implementación de catálogo digital con filtros y búsquedas avanzadas.
+* RF 2.4: Implementación de alertas de stock bajo cuando un producto tenga menos de cinco unidades.
+* RF 2.5: Permitir la actualización automática del estado de disponibilidad de los productos agotados.
+?? Procesamiento de Ventas y Pedidos
+* RF 3.1: Los clientes podrán agregar productos al carrito de compras.
+* RF 3.2: Se debe permitir modificar la cantidad de productos en el carrito antes de pagar.
+* RF 3.3: Integración con pasarelas de pago (PayU, MercadoPago) para procesar pagos en línea.
+* RF 3.4: Generación de números de orden únicos por cada compra realizada.
+* RF 3.5: Implementar seguimiento en tiempo real del estado de pedidos.
+* RF 3.6: Notificación por correo electrónico automático con confirmación de compra.
+?? Administración de Reportes y Finanzas
+* RF 4.1: Generación de reportes de ventas diarios, semanales y mensuales.
+* RF 4.2: Exportación de reportes en formato PDF o Excel.
+* RF 4.3: Implementación de gráficos de tendencias de ventas en el panel de administración.
+* RF 4.4: Registro de gastos operativos para llevar control financiero.
+* RF 4.5: Creación de un panel de estadísticas con datos sobre ingresos y productos más vendidos.
+?? Seguridad y Protección de Datos
+* RF 5.1: Implementación de cifrado de contraseñas para proteger datos sensibles.
+* RF 5.2: Uso de permisos y roles para acceso a funciones del sistema.
+* RF 5.3: Realización de copias de seguridad automáticas cada 24 horas.
+* RF 5.4: Protección contra ataques XSS e inyecciones SQL en formularios y bases de datos.
+
